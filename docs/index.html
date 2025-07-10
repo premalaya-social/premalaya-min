@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <title>Home :: Premalaya Ministries</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#004d89',
+            accent: '#1b8c3b',
+            secondary: '#032f52',
+            light: '#f8f8f8',
+          },
+          fontFamily: {
+            sans: ['Open Sans', 'Roboto', 'Lato', 'Catamaran', 'Arial', 'sans-serif'],
+            heading: ['Montserrat', 'Open Sans', 'Arial', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="/assets/css/font-awesome-4.5.0/css/font-awesome.min.css" />
+</head>
+<body class="bg-light font-sans text-gray-800">
+  <!-- Header Top Bar -->
+  <div class="w-full bg-primary text-white text-sm py-2 px-4 flex flex-col md:flex-row md:justify-between items-center gap-2">
+    <div><i class="fa fa-phone mr-2"></i>+91 96000 37927 / 98842 04493</div>
+    <div><i class="fa fa-map-marker mr-2"></i>9/A, 6th Street, 2nd Lane, Defence Enclave, Muthapudupet, IAF Avadi, Chennai - 600055, INDIA.</div>
+    <div><i class="fa fa-envelope mr-2"></i>premalayamin@yahoo.co.in</div>
+  </div>
+  <!-- Navigation Bar -->
+  <nav class="w-full bg-white shadow sticky top-0 z-30">
+    <div class="container mx-auto flex items-center justify-between py-3 px-4">
+      <a class="flex items-center" href="http://www.premalayamin.com">
+        <span class="font-extrabold text-2xl md:text-3xl tracking-wide text-gray-800 select-none">
+          Premalaya Ministries
+        </span>
+      </a>
+      <button class="md:hidden text-primary focus:outline-none" onclick="document.getElementById('nav-menu').classList.toggle('hidden')">
+        <span class="fa fa-bars text-2xl"></span>
+      </button>
+      <ul id="nav-menu" class="hidden md:flex space-x-2 lg:space-x-4 font-heading font-semibold text-base items-center mt-4 md:mt-0">
+        <li><a class="px-3 py-2 rounded hover:bg-primary hover:text-white transition" href="index.html">Home</a></li>
+        <li class="relative group">
+          <a class="px-3 py-2 rounded hover:bg-primary hover:text-white transition cursor-pointer" tabindex="0">About Us <i class="fa fa-caret-down ml-1"></i></a>
+          <ul class="absolute left-0 mt-2 bg-white shadow rounded hidden group-focus-within:flex group-hover:flex flex-col min-w-[180px] z-50" tabindex="-1">
+            <li><a class="block px-4 py-2 hover:bg-light" href="about_us.html">About Premalaya</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="vision_mission.html">Vision & Mission</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="revisaiah.html">Rev. Dr. A. Isaiah</a></li>
+          </ul>
+        </li>
+        <li><a class="px-3 py-2 rounded hover:bg-primary hover:text-white transition" href="children_home.html">Children Home</a></li>
+        <li class="relative group">
+          <a class="px-3 py-2 rounded hover:bg-primary hover:text-white transition cursor-pointer" tabindex="0">Ministries <i class="fa fa-caret-down ml-1"></i></a>
+          <ul class="absolute left-0 mt-2 bg-white shadow rounded hidden group-focus-within:flex group-hover:flex flex-col min-w-[200px] z-50" tabindex="-1">
+            <li><a class="block px-4 py-2 hover:bg-light" href="church_planting.html">Church Planting</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="pastors_training.html">Pastors Training</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="gospel_meetings.html">Gospel Meetings</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="outreach.html">Outreach</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="childrens_ministry.html">Children's Ministry</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="women_ministry.html">Women's Ministry</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="prayer_ministry.html">Prayer Ministry</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="health_ministry.html">Health Ministry</a></li>
+            <li><a class="block px-4 py-2 hover:bg-light" href="relief_operations.html">Relief Operations</a></li>
+          </ul>
+        </li>
+        <li><a class="px-3 py-2 rounded hover:bg-primary hover:text-white transition" href="support.html">Support Us</a></li>
+        <li><a class="px-3 py-2 rounded hover:bg-primary hover:text-white transition" href="donate.html">Donate</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Carousel Banner -->
+  <section class="container mx-auto mt-6">
+    <div class="rounded-xl overflow-hidden shadow-lg">
+      <img class="w-full object-cover" src="assets/img/hb1.jpg" alt="Premalaya Banner" />
+    </div>
+  </section>
+  <!-- Main Content -->
+  <section class="container mx-auto py-10">
+    <div class="bg-white rounded-xl shadow p-8 mb-10">
+      <h1 class="text-3xl md:text-4xl font-heading font-bold text-primary text-center mb-4">Welcome to Premalaya Ministries</h1>
+      <p class="text-lg text-center text-gray-700 mb-2">PREMALAYA MINISTRIES is a registered Religious, Educational and Social Trust born out of the vision received from the Lord to Rev. Dr. A. ISAIAH. The orgnisation has been used by the Lord to Expand HIS Kingdom in this World. Premalaya has never hesitated to go ahead in Faith despite Trails and Tribulations since its inception.</p>
+    </div>
+    <!-- About Cards -->
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      <div class="bg-light rounded-lg shadow p-6 flex flex-col items-center">
+        <img src="assets/img/revisaiah.png" alt="About Rev. Dr. A. Isaiah" class="w-28 h-28 object-contain rounded-full mb-4 border-4 border-primary" />
+        <div class="text-center">
+          <div class="text-lg font-bold text-accent mb-1">About Rev. Dr. A. Isaiah</div>
+          <a href="revisaiah.html" class="text-primary hover:underline font-semibold">Founder & Director</a>
+        </div>
+      </div>
+      <div class="bg-light rounded-lg shadow p-6 flex flex-col items-center">
+        <img src="assets/img/premalayahome.png" alt="Mission & Vision" class="w-28 h-28 object-contain rounded-full mb-4 border-4 border-accent" />
+        <div class="text-center">
+          <div class="text-lg font-bold text-accent mb-1">Mission & Vision</div>
+          <a href="vision_mission.html" class="text-primary hover:underline font-semibold">To spread the Gospel to all mankind</a>
+        </div>
+      </div>
+      <div class="bg-light rounded-lg shadow p-6 flex flex-col items-center">
+        <img src="assets/img/visionhome.png" alt="About Premalaya" class="w-28 h-28 object-contain rounded-full mb-4 border-4 border-primary" />
+        <div class="text-center">
+          <div class="text-lg font-bold text-accent mb-1">About Premalaya</div>
+          <a href="about_us.html" class="text-primary hover:underline font-semibold">Details about Premalaya</a>
+        </div>
+      </div>
+    </div>
+    <!-- Ministries Section -->
+    <div class="bg-white rounded-xl shadow p-8">
+      <h2 class="text-2xl md:text-3xl font-heading font-bold text-primary text-center mb-6">Our Ministries</h2>
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <img src="assets/img/homeministries.png" alt="Ministries" class="w-full md:w-1/2 rounded-lg shadow mb-4 md:mb-0" />
+        <div class="flex-1 space-y-4">
+          <div class="flex items-start"><i class="fa fa-chevron-circle-right text-accent text-xl mr-3 mt-1"></i><div><span class="font-bold text-primary">Church Planting</span><br><span class="text-gray-700">Every month Rev. Dr. A. Isaiah supports 27 Pastors financially and spiritually...</span></div></div>
+          <div class="flex items-start"><i class="fa fa-chevron-circle-right text-accent text-xl mr-3 mt-1"></i><div><span class="font-bold text-primary">Pastors Training</span><br><span class="text-gray-700">Premalaya Ministries conducts Lay Pastors Training, Conferences...</span></div></div>
+          <div class="flex items-start"><i class="fa fa-chevron-circle-right text-accent text-xl mr-3 mt-1"></i><div><span class="font-bold text-primary">Gospel Meetings</span><br><span class="text-gray-700">Gospel Meetings are conducted for spiritual awakening of believers...</span></div></div>
+          <div class="flex items-start"><i class="fa fa-chevron-circle-right text-accent text-xl mr-3 mt-1"></i><div><span class="font-bold text-primary">Outreach</span><br><span class="text-gray-700">Our Pastors visit remote villages and Homes to reach the unreached....</span></div></div>
+          <div class="flex items-start"><i class="fa fa-chevron-circle-right text-accent text-xl mr-3 mt-1"></i><div><span class="font-bold text-primary">Women's Ministry</span><br><span class="text-gray-700">The main focus is to strengthen women spiritually and financially...</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-secondary text-white mt-12">
+    <div class="container mx-auto py-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <div class="text-xl font-bold mb-2">Premalaya Ministries</div>
+          <p class="text-sm leading-relaxed">PREMALAYA MINISTRIES is a registered Religious, Educational and Social Trust born out of the vision received from the Lord to Rev. Dr.A. ISAIAH. The Premalaya Ministries also registered under 12AA of Income Tax Act and Foreign Contribution of Regulation Act (FCRA) Government of India. The orgnisation has been used by the Lord to Expand HIS Kingdom in this World. Premalaya has never hesitated to go ahead in Faith despite Trails and Tribulations since its inception.</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-lg font-bold mb-2">Our Location</div>
+          <img src='assets/img/location.png' class="w-24 h-24 object-contain mb-2" alt="Location" />
+        </div>
+        <div>
+          <div class="text-lg font-bold mb-2">Contact Information</div>
+          <ul class="space-y-2 text-sm">
+            <li><i class="fa fa-map-marker mr-2"></i>9/A, 6th Street, 2nd Lane, Defence Enclave, Muthapudupet, IAF Avadi, Chennai - 600 055. India</li>
+            <li><i class="fa fa-phone mr-2"></i>+91 96000 37927</li>
+            <li><i class="fa fa-whatsapp mr-2"></i>+91 98842 04493</li>
+            <li><i class="fa fa-envelope mr-2"></i>premalayamin@yahoo.co.in</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center text-xs text-gray-300 mt-8">&copy; Premalaya Ministries. All rights reserved.</div>
+    </div>
+  </footer>
+  <script>
+    // Desktop: Show dropdown on hover. Mobile: Show on click.
+    document.querySelectorAll('.group').forEach(function(el) {
+      var dropdown = el.querySelector('ul');
+      if (!dropdown) return;
+      // Desktop hover
+      el.addEventListener('mouseenter', function() {
+        if(window.innerWidth >= 768) {
+          dropdown.classList.remove('hidden');
+        }
+      });
+      el.addEventListener('mouseleave', function() {
+        if(window.innerWidth >= 768) {
+          dropdown.classList.add('hidden');
+        }
+      });
+      // Mobile click
+      el.querySelector('a').addEventListener('click', function(e) {
+        if(window.innerWidth < 768) {
+          e.preventDefault();
+          dropdown.classList.toggle('hidden');
+        }
+      });
+    });
+    // Hide dropdowns when clicking outside (mobile)
+    document.addEventListener('click', function(e) {
+      document.querySelectorAll('.group ul').forEach(function(ul) {
+        if(window.innerWidth < 768 && !ul.parentElement.contains(e.target)) {
+          ul.classList.add('hidden');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

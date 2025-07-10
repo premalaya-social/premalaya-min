@@ -1,0 +1,157 @@
+/* Professional custom CSS for Premalaya Ministries static site */
+
+body {
+  font-family: 'Open Sans', 'Roboto', 'Lato', 'Catamaran', Arial, sans-serif;
+  background: #f7fafd;
+  color: #222;
+  font-size: 1.05rem;
+}
+
+.navbar {
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 1.05rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.navbar .navbar-brand img.aslogo {
+  display: block;
+  max-height: 48px;
+  width: auto;
+}
+
+.navbar .nav-link {
+  color: #004d89 !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+  padding: 0.7rem 1.1rem;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link.active {
+  color: #1b8c3b !important;
+  background: #f2f8f2;
+  border-radius: 6px;
+}
+
+.dropdown-menu {
+  font-size: 1rem;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid #e3e3e3;
+}
+
+section.carousel img {
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.09);
+  margin-bottom: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #004d89;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+
+h1 span.blu {
+  color: #1b8c3b;
+}
+
+.homepara, .homepara2, .specialitypara, .specialitypara2 {
+  font-size: 1.13rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.specialityhead {
+  color: #1b8c3b;
+  font-weight: 700;
+}
+
+
+section.aboutus, section.ministries {
+  background: #f8f8f8;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 40px 0;
+}
+
+section.aboutus .container, section.ministries .container {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+}
+
+section.aboutus .row > div, section.ministries .row > div {
+  margin-bottom: 32px;
+}
+
+section.aboutus .col-md-4, section.ministries .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  font-size: 1rem;
+  background: #032f52;
+  color: #fff;
+  margin-top: 32px;
+  border-top: 4px solid #1b8c3b;
+}
+
+footer .paratext3, footer .parahead {
+  color: #fff;
+}
+
+footer ul.listme li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+footer .services {
+  background: #004d89;
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 0;
+}
+
+footer .footersec {
+  background: #032f52;
+  border-top:1px solid #224c6d;
+}
+
+img.img-fluid, img.imgfire {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-brand img.aslogo {
+    max-height: 36px;
+  }
+  .homepara, .homepara2, .specialitypara, .specialitypara2 {
+    font-size: 1rem;
+  }
+  h1, h2, h3 {
+    font-size: 1.3rem;
+  }
+  section.aboutus .container, section.ministries .container {
+    padding: 12px 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-brand img.aslogo {
+    max-height: 28px;
+  }
+  .navbar .nav-link {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.98rem;
+  }
+  h1, h2, h3 {
+    font-size: 1.1rem;
+  }
+}
